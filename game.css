@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    background-image: url("https://img.freepik.com/free-vector/flat-nature-background_1308-20252.jpg?w=826&t=st=1702130937~exp=1702131537~hmac=06b4b35c39eb519cebf13ead0bc5809faa889e8981ceb6b232bd8006f573d4b2");
+    background-size:cover;
+    background-repeat: repeat;
+    cursor: pointer;
+   }
+#gif{
+    display: flex;
+    column-gap: 100px;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+}
+#score{
+background-color: grey;
+color: rgb(48, 48, 48);
+    padding: 8px;
+    
+}
+#scoren{
+    background-color: wheat;
+}
+#timern{
+    background-color: white;
+    color: rgb(48, 48, 48);
+}
+#timer{
+    background-color: grey;
+    color: beige;
+    padding: 8px;
+}
+#b1{
+    margin-top: 5%;
+    margin-left: 48%;
+    font-size: large;
+    background-color: grey;
+}
+#b1:hover{
+    background-color: rgb(85, 83, 83);
+}
+#Butterfly{
+    padding: 5%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
